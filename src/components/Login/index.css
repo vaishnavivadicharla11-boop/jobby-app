@@ -1,0 +1,11 @@
+.bg-container {
+  background-color: #000000;
+  height: 100vh;
+}
+.button {
+  background-color: #6366f1;
+  color: #ffffff;
+}
+.error_msg {
+  color: #ff0b37;
+}
