@@ -211,10 +211,7 @@ class Jobs extends Component {
     } else {
       this.setState(
         prevState => ({
-          employmentTypes: [
-            ...prevState.employmentTypes,
-            event.target.value,
-          ],
+          employmentTypes: [...prevState.employmentTypes, event.target.value],
         }),
         this.getJobs,
       )
